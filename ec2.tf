@@ -22,6 +22,7 @@ EOF
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-ec2-role"
     yor_trace = "240c756f-4a0d-4f00-a884-a06189cc4bc8"
+    git_org   = "Skrishna-Test"
   }
 }
 
@@ -86,6 +87,7 @@ POLICY
   tags = {
     yor_name  = "ebilling-ec2-role-policy"
     yor_trace = "b161fe05-6983-46b4-a80d-19801d1f0abe"
+    git_org   = "Skrishna-Test"
   }
 }
 
@@ -201,6 +203,7 @@ resource "aws_iam_policy" "s3_ap_policy" {
   tags = {
     yor_name  = "s3_ap_policy"
     yor_trace = "e21cc8d6-c5d5-4ff7-9cf7-5f49aa83de08"
+    git_org   = "Skrishna-Test"
   }
 }
 
@@ -230,6 +233,7 @@ resource "aws_iam_instance_profile" "ebilling-ec2-instance-profile" {
   tags = {
     yor_name  = "ebilling-ec2-instance-profile"
     yor_trace = "90f3e5e1-57ea-493b-89bf-2cacdb60d1df"
+    git_org   = "Skrishna-Test"
   }
 }
 
@@ -240,6 +244,7 @@ resource "aws_key_pair" "ebilling-ec2-key-pair" {
   tags = {
     yor_name  = "ebilling-ec2-key-pair"
     yor_trace = "e1681862-2665-4bc4-988f-195c6a958357"
+    git_org   = "Skrishna-Test"
   }
 }
 
@@ -314,6 +319,7 @@ resource "aws_instance" "ebilling-ubuntu-ec2" {
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-ubuntu-ec2"
     yor_trace = "1b07512b-3cfc-4ce7-9021-e2c8721f5808"
+    git_org   = "Skrishna-Test"
   }
 }
 

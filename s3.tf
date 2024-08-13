@@ -13,6 +13,7 @@ resource "aws_s3_bucket" "pc-national-bank-bucket" {
   tags = {
     yor_name  = "pc-national-bank-bucket"
     yor_trace = "f1111537-0ac6-44dd-bfb3-5edd70136226"
+    git_org   = "Skrishna-Test"
   }
 }
 
