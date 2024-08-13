@@ -7,6 +7,7 @@ resource "aws_vpc" "ebilling-vpc" {
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-vpc"
     yor_trace = "4763748f-4a83-4975-a00b-cbd21e16be28"
+    git_org   = "Skrishna-Test"
   }
 }
 #Internet Gateway
@@ -18,6 +19,7 @@ resource "aws_internet_gateway" "ebilling-internet-gateway" {
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-internet-gateway"
     yor_trace = "38820788-a210-441a-a5a8-d1fb97548735"
+    git_org   = "Skrishna-Test"
   }
 }
 #Public Subnets
@@ -31,6 +33,7 @@ resource "aws_subnet" "ebilling-public-subnet-1" {
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-public-subnet-1"
     yor_trace = "ba8871f0-9883-4141-b159-20c9857e8fb9"
+    git_org   = "Skrishna-Test"
   }
 }
 resource "aws_subnet" "ebilling-public-subnet-2" {
@@ -43,6 +46,7 @@ resource "aws_subnet" "ebilling-public-subnet-2" {
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-public-subnet-2"
     yor_trace = "40610f1e-ce7d-4210-a131-43883e78d417"
+    git_org   = "Skrishna-Test"
   }
 }
 #Public Subnet Routing Table
@@ -58,6 +62,7 @@ resource "aws_route_table" "ebilling-public-subnet-route-table" {
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-public-subnet-route-table"
     yor_trace = "71e00676-e5ce-4adc-a761-b7c80ae1b63b"
+    git_org   = "Skrishna-Test"
   }
 }
 #Public Subnets Routing Associations
